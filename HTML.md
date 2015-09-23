@@ -10,7 +10,20 @@
 ### 属性
 
 - 属性上，使用`双引号`，不允许使用单引号，不允许不使用引号；
+
+示例：
+```
+  <input data-role="getPic" type="button" />
+```
+
 - 属性名`全小写`，用`中划线`做分隔符，不允许使用大写，例：form-control；
+
+示例：
+```
+  <input data-role="getPic" type="button" />
+```
+
+
 - 自定义属性作为JS的hook，建议以data-为前缀；
 
 示例：
@@ -27,4 +40,4 @@
   + title, alt
   + aria-*, role
 
-### 
+### DOCTYPE

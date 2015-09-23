@@ -14,24 +14,23 @@
 + 采用小写方式， 以下划线分隔。
 + 有复数结构时，要采用复数命名法。
 
-例：file_names, scripts, styles, images, data_models
-
+    例：file_names, scripts, styles, images, data_models
 
 [文件命名]()
 
-同 [目录命名]
+- 同 [目录命名]
 
 - js, JSX 文件命名
 
-例：account_model.js
+    例：account_model.js
 
 - css, less, sass, stylus 文件命名
 
-例：image_sprites.css
+    例：image_sprites.css
 
 - HTML, Jade 文件命名
 
-例：error_report.html
+    例：error_report.html
 
 ### [代码风格基本规范]()
 
