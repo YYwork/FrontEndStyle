@@ -8,8 +8,8 @@
 4. [语言](#4-语言)
 5. [字符编码](#5-字符编码)
 6. [IE兼容模式](#6-IE兼容模式)
-7. [boolean 属性](7-boolean-属性)
-8. [引入 CSS JS](8-引入-CSS-JS)
+7. [boolean属性](7-boolean属性)
+8. [引入CSS和JS](8-引入CSS和JS)
 
 
 ## 编码规范
@@ -32,7 +32,21 @@
 
 示例： 
 ```
-  <br /> <hr /> <area /> <base /> <img /> <input /> <link /> <meta /> <basefont/> <param/> <col/> <frame/> <embed /> <keygen /> <source /> 
+  <br />
+  <hr />
+  <area />
+  <base />
+  <img />
+  <input />
+  <link />
+  <meta />
+  <basefont />
+  <param />
+  <col />
+  <frame />
+  <embed />
+  <keygen />
+  <source /> 
 ```
 
 ---
@@ -146,7 +160,7 @@
 
 ---
 
-### 7 boolean 属性
+### 7 boolean属性
 
 boolean属性指不需要声明取值的属性，XHTML需要每个属性声明取值，但是HTML5并不需要；
 
@@ -161,7 +175,7 @@ boolean属性指不需要声明取值的属性，XHTML需要每个属性声明�
 </select>
 ```
 
-### 8 引入 CSS JS
+### 8 引入CSS和JS
 
 - `link` 必须声明 `rel="stylesheet"`
 - `CSS` 没有特殊要求的情况下写在 `head` 标签内部
