@@ -54,4 +54,5 @@
 - [suning](https://github.com/suning-wireless/Front-End-Standards)
 - [猎豹移动](https://github.com/CMCM-F2E/fe-standards)
 - [亚信UED](https://github.com/Alsiso/AICG)
-
+- [豆瓣CSS Code Guideline](https://github.com/kejun/CSS-Code-Guideline)
+- [spec css style guide](https://github.com/ecomfe/spec/blob/master/css-style-guide.md)
