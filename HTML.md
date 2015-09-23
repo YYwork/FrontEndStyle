@@ -2,7 +2,7 @@
 
 ## 编码规范
 
-### 标签
+### 1. 标签
 
 - 不允许遗漏可选的关闭标签
 - 使用尽可能少的标签嵌套
@@ -25,7 +25,7 @@
 
 ---
 
-### 属性
+### 2. 属性
 
 - 属性上，使用`双引号`，不允许使用单引号，不允许不使用引号
 
@@ -56,17 +56,18 @@
   class是为高可复用组件设计的，所以应处在第一位；
   id更加具体且应该尽量少使用，所以将它放在第二位。
 
-  + class
-  + id, name
-  + data-*
-  + src, for, type, href, value , max-length, max, min, pattern
-  + placeholder, title, alt
-  + aria-*, role
-  + required, readonly, disabled
-
+```
+  class
+  id, name
+  data-*
+  src, for, type, href, value , max-length, max, min, pattern
+  placeholder, title, alt
+  aria-*, role
+  required, readonly, disabled
+```
 ---
 
-### DOCTYPE
+### 3. DOCTYPE
 
 使用 HTML5 doctype；
 
@@ -84,7 +85,7 @@
 
 ---
 
-### 语言
+### 4. 语言
 
 建议为 html 根元素指定 lang 属性，从而为文档设置正确的语言。这将有助于语音合成工具确定其所应该采用的发音，有助于翻译工具确定其翻译时所应遵守的规则等等。
 
@@ -98,7 +99,7 @@
 
 ---
 
-### 字符编码
+### 5. 字符编码
 
 通过声明一个明确的字符编码，让浏览器轻松、快速的确定适合网页内容的渲染方式，通常指定为'UTF-8'。
 
@@ -115,7 +116,7 @@
 
 ---
 
-### IE兼容模式
+### 6. IE兼容模式
 
 用 <meta> 标签可以指定页面应该用什么版本的IE来渲染；
 
@@ -133,7 +134,22 @@
 
 ---
 
-### 引入 CSS, JS
+### 7. boolean 属性
+
+boolean属性指不需要声明取值的属性，XHTML需要每个属性声明取值，但是HTML5并不需要；
+
+示例：
+```
+<input type="text" disabled>
+
+<input type="checkbox" value="1" checked>
+
+<select>
+    <option value="1" selected>1</option>
+</select>
+```
+
+### 8. 引入 CSS, JS
 
 - `link` 必须声明 `rel="stylesheet"`
 - `CSS` 没有特殊要求的情况下写在 `head` 标签内部
@@ -160,20 +176,5 @@
 ```
 
 ---
-
-### boolean 属性
-
-boolean属性指不需要声明取值的属性，XHTML需要每个属性声明取值，但是HTML5并不需要；
-
-示例：
-```
-<input type="text" disabled>
-
-<input type="checkbox" value="1" checked>
-
-<select>
-    <option value="1" selected>1</option>
-</select>
-```
 
 
