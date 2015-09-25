@@ -67,6 +67,8 @@
 - 浏览器特殊的HACK代码
 - 业务逻辑强相关的代码
 
+- [文档注释 jsdoc](http://yuri4ever.github.io/jsdoc/)
+
 
 ---
 
