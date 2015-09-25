@@ -6,15 +6,32 @@
 
 ### 目录结构
 
+* [统一命名规范](#统一命名规范)
+  - [目录命名](#目录命名)
+  - [文件命名](#文件命名)
+* [统一代码风格基本规范](#统一代码风格基本规范)
+* [HTML 规范](./HTML.md)
+* [CSS 规范](./CSS.md)
+* [JavaScript 规范](./JavaScript.md)
 
-### 命名规范
+推荐技术(非强制)
+
+##### 自动化
+
+* [grunt]()
+
+##### 移动端
+
+* [移动端适配]()
+
+### 统一命名规范
 
 ##### 目录命名
 
 + 采用小写方式， 以下划线分隔。
 + 有复数结构时，要采用复数命名法。
 
-    例：file_names, scripts, styles, images, data_models
+    例：templates, scripts, styles, images, data_models
 
 ##### 文件命名
 
@@ -32,21 +49,15 @@
 
     例：error_report.html
 
-### 代码风格基本规范
+### 统一代码风格基本规范
 
-- 缩进使用 2 个空格，禁止使用 4 个空格 和 `tab` 键；
-- 嵌套的语法应该缩进。
-
-### [HTML 规范](./HTML.md)
-
-### [CSS 规范](./CSS.md)
-
-### [JavaScript 规范](./JavaScript.md)
+- 缩进使用 2 个空格，禁止使用 4 个空格 和 `tab` 键；(2 个空格 -- 这是唯一能保证在所有环境下获得一致展现的方法。)
+- 嵌套的语法应该缩进一次（即两个空格）。
 
 
+---
 
-
-参考：
+#### 参考：
 
 - [bootcss](http://codeguide.bootcss.com/)
 - [alloyteam](http://alloyteam.github.io/CodeGuide/#html-syntax)

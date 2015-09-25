@@ -4,7 +4,7 @@
 
 ### 代码风格
 
-- 同 [代码风格基本规范](http://gitlab.intra.kooup.com/fuying/FrondEndStyle/blob/master/README.md#代码风格基本规范)
+- 同 [统一代码风格基本规范](./README.md#统一代码风格基本规范)
 - JavaScript 里使用单引号，不允许使用双引号；
 
 ### 命名规范
