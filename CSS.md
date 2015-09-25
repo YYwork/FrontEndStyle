@@ -23,22 +23,39 @@
 
 - 同 [统一代码风格基本规范](./README.md#统一代码风格基本规范)
 
-- 为选择器分组时，将`单独的选择器`单独放在一行
-- 为了代码的易读性，在每个声明块的`左花括号`前添加一个空格
-- 声明块的`右花括号`应当单独成行
-- 每条声明语句的` : `后应该插入一个空格， : 前没有空格
-- 为了获得更准确的错误报告，每条`声明`都应该独占一行
-- 所有声明语句都应当以`分号结尾`
-- 对于以`逗号分隔`的属性值，每个逗号后面都应该插入一个空格
-- 不要在 rgb()、rgba()、hsl()、hsla() 或 rect() 值的内部的逗号后面插入空格
+* 分号
+  - 所有声明语句都应当以`分号结尾`
+* 空格
+  - 每条声明语句的`:`后应该插入一个空格，前没有空格
+  - 多个规则的分隔符`,`后应该插入一个空格，前没有空格
+  - 属性值中`(`后和`)`前均没有空格
+  - 选择器`>`, `+`, `~`前后有空格
+  - 大括号`{` 前有空格，后没有空格
+  - !important '!'前插入一个空格，后没有空格
+  - 注释'/*'后和'*/'前
+  - 不要在 rgb()、rgba()、hsl()、hsla() 或 rect() 值的内部的逗号后面插入空格
+* 空行
+  - 模块之间一个空行
+  - 可按照属性声明顺序适当空行
+* 换行
+  - 为选择器分组时，将`单独的选择器`单独放在一行
+  - 为了获得更准确的错误报告，每条`声明`都应该独占一行
+  - 声明块的`右花括号`应当单独成行
+
+* 引号
+
+- 最外层统一使用双引号, 如：属性选择器 `li[data-type="single"] {}` ， url的内容`background-image: url(""); ` 
+
 - `十六进制值`应该全部小写，尽量使用简写形式的十六进制值 例如： `#fff`
 - 为选择器中的属性添加双引号，例如，input[type="text"]
 - 避免为 0 值指定单位，例如，用 margin: 0; 代替 margin: 0px;
+- 用 border: 0; 代替 border: none;
 
 ### 2 声明顺序
 
 推荐声明顺序
 
+0. display
 1. Positioning
 2. Box model
 3. Typographic
@@ -49,6 +66,8 @@
 
 ```
 .declaration-order {
+  display: block;
+  float: right;
   /* Positioning */
   position: absolute;
   top: 0;
@@ -58,8 +77,6 @@
   z-index: 100;
 
   /* Box-model */
-  display: block;
-  float: right;
   width: 100px;
   height: 100px;
 
@@ -79,6 +96,7 @@
 }
 ```
 
+[推荐的属性的顺序](./CSS-attribute.md)
 
 ### 3 媒体查询
 
@@ -134,6 +152,8 @@ font
 background
 border
 border-radius
+transition
+animation
 ```
 
 [shorthand properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
