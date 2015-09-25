@@ -209,7 +209,10 @@ boolean属性指不需要声明取值的属性，XHTML需要每个属性声明�
 
   示例：
   ```
-  <!-- header -->
+  <!-- start header -->
+  ...
+
+  <!-- end header -->
   ```
 
 
